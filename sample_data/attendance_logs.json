@@ -1,0 +1,473 @@
+[
+  {
+    "emp_code": "EMP0001",
+    "date": "2026-07-06",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-06T03:58:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-06T13:05:00Z"
+    },
+    "work_hours": 9.12,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-06",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-06T04:35:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-06T13:40:00Z"
+    },
+    "work_hours": 9.08,
+    "late_minutes": 35,
+    "overtime_minutes": 40,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0006",
+    "date": "2026-07-07",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-07T04:05:00Z"
+    },
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0004",
+    "date": "2026-07-07",
+    "status": "WFH",
+    "punch_in": {
+      "$date": "2026-07-07T04:00:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-07T07:30:00Z"
+    },
+    "work_hours": 3.5,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": true,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0004",
+    "date": "2026-07-08",
+    "status": "ABSENT",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-08",
+    "status": "LEAVE",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-06",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-06T16:25:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-07T01:10:00Z"
+    },
+    "work_hours": 8.75,
+    "late_minutes": 0,
+    "overtime_minutes": 40,
+    "half_day": false,
+    "history": []
+  },
+  {
+    "emp_code": "EMP0001",
+    "date": "2026-07-07",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-07T03:58:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-07T13:00:00Z"
+    },
+    "work_hours": 9.03,
+    "late_minutes": 0,
+    "overtime_minutes": 0,
+    "half_day": false,
+    "history": [
+      {
+        "at": {
+          "$date": "2026-07-08T05:00:00Z"
+        },
+        "by": "hr.admin",
+        "reason": "biometric glitch",
+        "changes": {
+          "punch_in": {
+            "from": {
+              "$date": "2026-07-07T04:35:00Z"
+            },
+            "to": {
+              "$date": "2026-07-07T03:58:00Z"
+            }
+          },
+          "late_minutes": {
+            "from": 35,
+            "to": 0
+          },
+          "work_hours": {
+            "from": 8.42,
+            "to": 9.03
+          }
+        }
+      }
+    ]
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-14",
+    "status": "PRESENT",
+    "punch_in": {
+      "$date": "2026-07-14T04:02:00Z"
+    },
+    "punch_out": {
+      "$date": "2026-07-14T13:01:00Z"
+    },
+    "work_hours": 8.98,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-13",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-13T04:00:00Z"},
+    "punch_out": {"$date": "2026-07-13T13:00:00Z"},
+    "work_hours": 9.00,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-25",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-14T04:18:00Z"},
+    "punch_out": {"$date": "2026-07-14T13:45:00Z"},
+    "work_hours": 9.45,
+    "late_minutes": 18,
+    "overtime_minutes": 45
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-15",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-15T03:55:00Z"},
+    "punch_out": {"$date": "2026-07-15T13:00:00Z"},
+    "work_hours": 9.08,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-16",
+    "status": "ABSENT",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-17",
+    "status": "ON_DUTY",
+    "punch_in": {"$date": "2026-07-17T04:05:00Z"},
+    "punch_out": {"$date": "2026-07-17T13:40:00Z"},
+    "work_hours": 9.58,
+    "late_minutes": 0,
+    "overtime_minutes": 40
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-20",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-20T04:12:00Z"},
+    "punch_out": {"$date": "2026-07-20T13:00:00Z"},
+    "work_hours": 8.80,
+    "late_minutes": 12,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-21",
+    "status": "LEAVE",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-22",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-22T04:25:00Z"},
+    "punch_out": {"$date": "2026-07-22T13:40:00Z"},
+    "work_hours": 9.25,
+    "late_minutes": 25,
+    "overtime_minutes": 40
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-23",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-23T03:58:00Z"},
+    "punch_out": {"$date": "2026-07-23T12:50:00Z"},
+    "work_hours": 8.87,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0002",
+    "date": "2026-07-24",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-24T04:35:00Z"},
+    "punch_out": {"$date": "2026-07-24T13:35:00Z"},
+    "work_hours": 9.00,
+    "late_minutes": 35,
+    "overtime_minutes": 35
+  },
+
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-01",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-01T04:00:00Z"},
+    "punch_out": {"$date": "2026-07-01T13:00:00Z"},
+    "work_hours": 9.00,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-02",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-02T04:22:00Z"},
+    "punch_out": {"$date": "2026-07-02T13:40:00Z"},
+    "work_hours": 9.30,
+    "late_minutes": 22,
+    "overtime_minutes": 40
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-03",
+    "status": "ABSENT",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-16",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-06T04:15:00Z"},
+    "punch_out": {"$date": "2026-07-06T13:00:00Z"},
+    "work_hours": 8.75,
+    "late_minutes": 15,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-07",
+    "status": "LEAVE",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-18",
+    "status": "ON_DUTY",
+    "punch_in": {"$date": "2026-07-08T03:50:00Z"},
+    "punch_out": {"$date": "2026-07-08T13:50:00Z"},
+    "work_hours": 10.00,
+    "late_minutes": 0,
+    "overtime_minutes": 50
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-11",
+    "status": "ON_DUTY",
+    "punch_in": {"$date": "2026-07-08T03:52:00Z"},
+    "punch_out": {"$date": "2026-07-08T12:50:00Z"},
+    "work_hours": 10.00,
+    "late_minutes": 0,
+    "overtime_minutes": 50
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-09",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-09T04:45:00Z"},
+    "punch_out": {"$date": "2026-07-09T13:20:00Z"},
+    "work_hours": 8.58,
+    "late_minutes": 45,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-10",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-10T04:05:00Z"},
+    "punch_out": {"$date": "2026-07-10T13:10:00Z"},
+    "work_hours": 9.08,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-13",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-13T04:00:00Z"},
+    "punch_out": {"$date": "2026-07-13T13:35:00Z"},
+    "work_hours": 9.58,
+    "late_minutes": 0,
+    "overtime_minutes": 35
+  },
+  {
+    "emp_code": "EMP0003",
+    "date": "2026-07-14",
+    "status": "LEAVE",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-01",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-01T16:30:00Z"},
+    "punch_out": {"$date": "2026-07-02T00:30:00Z"},
+    "work_hours": 8.00,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-02",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-02T16:48:00Z"},
+    "punch_out": {"$date": "2026-07-03T01:15:00Z"},
+    "work_hours": 8.45,
+    "late_minutes": 18,
+    "overtime_minutes": 45
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-03",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-03T16:25:00Z"},
+    "punch_out": {"$date": "2026-07-04T00:30:00Z"},
+    "work_hours": 8.08,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-14",
+    "status": "ABSENT",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-15",
+    "status": "LEAVE",
+    "punch_in": null,
+    "punch_out": null,
+    "work_hours": null,
+    "late_minutes": 0,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-13",
+    "status": "ON_DUTY",
+    "punch_in": {"$date": "2026-07-06T16:35:00Z"},
+    "punch_out": {"$date": "2026-07-07T01:10:00Z"},
+    "work_hours": 8.58,
+    "late_minutes": 0,
+    "overtime_minutes": 40
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-07",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-07T17:00:00Z"},
+    "punch_out": {"$date": "2026-07-08T00:30:00Z"},
+    "work_hours": 7.50,
+    "late_minutes": 30,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-08",
+    "status": "WFH",
+    "punch_in": {"$date": "2026-07-08T16:30:00Z"},
+    "punch_out": {"$date": "2026-07-09T01:00:00Z"},
+    "work_hours": 8.50,
+    "late_minutes": 0,
+    "overtime_minutes": 30
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-09",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-09T16:42:00Z"},
+    "punch_out": {"$date": "2026-07-10T00:35:00Z"},
+    "work_hours": 7.88,
+    "late_minutes": 12,
+    "overtime_minutes": 0
+  },
+  {
+    "emp_code": "EMP0005",
+    "date": "2026-07-10",
+    "status": "PRESENT",
+    "punch_in": {"$date": "2026-07-10T16:30:00Z"},
+    "punch_out": {"$date": "2026-07-11T01:20:00Z"},
+    "work_hours": 8.83,
+    "late_minutes": 0,
+    "overtime_minutes": 50
+  }
+
+]
